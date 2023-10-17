@@ -1,0 +1,15 @@
+2023-10-16 22:59:48.120779-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "EMPLEADO" ya existe
+Table "EMPLEADO" already exists; SQL statement:
+CREATE TABLE EMPLEADO(ID INT PRIMARY KEY, NAME VARCHAR(255), EMPRESA VARCHAR(255), FECHAINICIO VARCHAR(255)) [42101-224]
+2023-10-16 22:59:50.879858-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "EMPLEADO" ya existe
+Table "EMPLEADO" already exists; SQL statement:
+CREATE TABLE EMPLEADO(ID INT PRIMARY KEY, NAME VARCHAR(255), EMPRESA VARCHAR(255), FECHAINICIO VARCHAR(255)) [42101-224]
+2023-10-16 23:01:20.231845-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "EMPLEADO" ya existe
+Table "EMPLEADO" already exists; SQL statement:
+CREATE TABLE EMPLEADO(ID INT PRIMARY KEY, NAME VARCHAR(255), EMPRESA VARCHAR(255), FECHAINICIO VARCHAR(255)) [42101-224]
+2023-10-16 23:02:55.626029-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "Jaimito Pérez"
+Data conversion error converting "Jaimito Pérez" [22018-224]
